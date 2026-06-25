@@ -1,32 +1,32 @@
 export interface Question {
   question: string;
-  slug: string;
+  href: string;
 }
 
 export const popularQuestions: Question[] = [
   {
     question: "How much does health insurance cost for a small business?",
-    slug: "health-insurance-cost",
+    href: "/learn/group-health-insurance/employer-cost-contribution-basics",
   },
   {
     question: "Do I have to offer benefits to my employees?",
-    slug: "required-to-offer-benefits",
+    href: "/learn/choosing-funding-complying/compliance-essentials",
   },
   {
     question: "ICHRA vs. Group Insurance — what's the difference?",
-    slug: "ichra-vs-group-insurance",
+    href: "/learn/tax-advantaged-accounts/hra-ichra-qsehra",
   },
   {
     question: "What benefits do employees actually value most?",
-    slug: "benefits-employees-value",
+    href: "/learn/choosing-funding-complying/building-benefits-package",
   },
   {
     question: "Can I reimburse employees instead of offering a plan?",
-    slug: "reimburse-employees-insurance",
+    href: "/learn/tax-advantaged-accounts/reimburse-employees-insurance",
   },
   {
     question: "How much should I contribute as the employer?",
-    slug: "employer-contribution-amount",
+    href: "/learn/group-health-insurance/employer-cost-contribution-basics",
   },
 ];
 

@@ -11,8 +11,8 @@ export function PopularQuestions() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {popularQuestions.map((q) => (
             <Link
-              key={q.slug}
-              href={`/ask/${q.slug}`}
+              key={q.href}
+              href={q.href}
               className="group flex items-center justify-between p-5 bg-white border border-slate-200 rounded-xl hover:border-emerald-300 hover:shadow-sm transition-all"
             >
               <span className="text-slate-700 font-medium group-hover:text-slate-900 pr-4 leading-snug">

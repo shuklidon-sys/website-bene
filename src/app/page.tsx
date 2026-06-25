@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/home/HeroSection";
 import { PopularQuestions } from "@/components/home/PopularQuestions";
+import { BrowseTopics } from "@/components/home/BrowseTopics";
 import { JourneySection } from "@/components/home/JourneySection";
 
 export default function HomePage() {
@@ -7,6 +8,7 @@ export default function HomePage() {
     <>
       <HeroSection />
       <PopularQuestions />
+      <BrowseTopics />
       <JourneySection />
     </>
   );
